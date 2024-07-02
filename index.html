@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>personal-portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Navbar brand with center title -->
+            <div class="mx-auto order-0">
+              <img class="img-fluid" width="50px" height="auto" style="border-radius: 50px;" src="images/logo-4.jpg">
+                <a class="navbar-brand mx-auto" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Navbar items -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subhero">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      </header>
+    
+    <!--Hero-->
+    <div id="hero" class="container">
+        <div class="row align-items-center" style="flex-direction: row-reverse;">
+            <div class="col-12 col-md-6"><img class="img-fluid" src="images/anime-prfile.jpg"></div>
+            <div class="col-12 col-md-6"><p class="intro">Hey,<br>I'm Jesus</p><p>This is a personal portfolio website I created for Altcademy. It showcases the projects I've developed so far.</p></div>
+            <!--<div class="col-12 col-md-6"><img class="img-fluid image" src="images/animeprofile.jpg"></div>-->
+        </div>
+    </div>
+
+    <!--Subhero-->
+    <div id="subhero">
+      <div class="container-fluid"> 
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-12 title-2"><p>Projects</p></div>
+        </div>
+
+        <div class="row row-2 align-items-center">
+          <div class="col-12 col-md-6 col-lg-6" style="text-align: center;" >This project is a clone of the Apple website, created using only HTML and CSS. It's a demonstration of my skills in web design and layout</div>
+          <div class="col-12 col-md-6 col-lg-6"><a href="https://delicate-kheer-218bb0.netlify.app/" target="_blank"><img class="img-fluid subhero-1" src="images/apple.png"></a></div>
+        </div>
+
+        <div class="row row-2 align-items-center" style="flex-direction: row-reverse;">
+          <div class="col-12 col-md-6 col-lg-6" style="text-align: center;">This project is a clone of the Newsweek website, built using HTML, CSS, and Bootstrap 3. It showcases my ability to use Bootstrap for responsive web design.</div>
+          <div class="col-12 col-md-6 col-lg-4" style="text-align: center;"><a href="https://singular-sprite-e30395.netlify.app/" target="_blank"><img class="img-fluid subhero-1" src="images/Screenshot 2024-06-30 185505.png"></a></div>
+        </div>
+
+        <div class="row row-2 align-items-center">
+          <div class="col-12 col-md-6 col-lg-6" style="text-align: center;" >This project is a clone of the Airbnb News website, created using HTML, CSS, and Bootstrap 4. It highlights my skills in using Bootstrap 4 for modern and more responsive web design.</div>
+          <div class="col-12 col-md-6 col-lg-6 mb-3"><a href="https://moonlit-fox-de1cf5.netlify.app/" target="_blank"><img class="img-fluid subhero-1" src="images/airbnbnews.png"></div></a>
+        </div>
+      </div>
+    </div>
+    <!--style="background-color: rgba(219, 21, 130, 0.301);"-->
+    <!--Footer-->
+    <div id="footer">
+      <div class="container-fluid">
+        <div class="align-items-center">
+          <div class="title-2"><p style="text-align: center;">About Me</p></div>
+        </div>
+
+        <div class="container">
+        <div class="align-items-center" style="text-align: center;">    
+          <div style="margin-top: 10px; text-align: center;" >Hey, I'm Jesus. I'm diving into full-stack development. I'm all about building cool, user-friendly web apps. Currently, I'm working through a full-stack course and enjoying the process of turning ideas into functional code. Let's make something cool together if you're up for it.</div>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center; justify-content: space-evenly;" >
+          <a href="https://github.com/jj158" target="_blank"><img class="img-fluid" src="images/icons8-github-50.png"></a>
+          <a href="#"><img class="img-fluid" src="images/icons8-shrug-emoticon-50.png"></a>
+
+          <div style="margin-top: 10px; text-align: center;">Got a project or just want to say hi? Reach out to me!</div>
+          <img class="img-fluid footer-images" width="380px" height="auto" src="images/icons8-html-logo-480.png">
+          <img class="img-fluid footer-images" width="380px" height="auto" src="images/icons8-css-logo-480.png">
+          <img class="img-fluid footer-images" width="380px" height="auto" src="images/icons8-bootstrap-logo-480.png">
+          <div style="margin-top: 30px; text-align: center;"><a href="https://www.altcademy.com" target="_blank">Altcademy</a> - Part of Altcademy's Fullstack Program</div>
+
+        </div>
+        </div>  
+      </div>
+    </div>  
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>

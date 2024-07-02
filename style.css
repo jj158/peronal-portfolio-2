@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    color: rgb(228, 227, 227);
+    font-family: 'Montserrat';
+    background-image: url(images/anime-background-nighttime.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Navbar*/
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+}
+
+header {
+    background-color: #28252A;
+}
+
+/*Hero*/
+
+#hero img {
+    border-radius: 20px;
+}
+
+#hero {
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.intro {
+    font-size: 100px;
+    line-height: 1.2;
+}
+
+/*Subhero*/
+#subhero {
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#subhero:before {
+    content: '';
+    display: block;
+    border-top: 4px solid gray;
+    margin: 0 20px; 
+}
+
+.title-2 {
+    font-size: 80px;
+}
+
+#subhero .row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subhero-1 {
+    width: 600px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .footer-images {
+        width: 120px;
+        height: auto;
+    }
+}
+
+/*Footer*/
+#footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#footer:before {
+    content: '';
+    display: block;
+    border-top: 4px solid gray;
+    margin: 0 20px; 
+}
